@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 #welcome-section {
   height: 100vh;
   display: flex;
@@ -12,13 +18,24 @@
   height: 15vw;
   object-fit: cover;
 }
+.card {
+  margin: 20px 0px;
+}
 
 .title {
   text-align: center;
+  color: rgba(248, 247, 245, 0.7);
 }
 
 #projects {
   grid-column-gap: 24px;
   justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.project-container {
+  background-color: rgba(0, 128, 128, 0.8);
   padding: 30px;
 }
