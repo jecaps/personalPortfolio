@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+#content {
+  min-width: 800px;
+}
+
 #welcome-section {
   height: 100vh;
   display: flex;
@@ -33,9 +37,17 @@
   align-items: center;
   padding: 30px;
   text-align: center;
+  height: 100vh;
 }
 
 .project-container {
+  height: 100%;
   background-color: rgba(0, 128, 128, 0.8);
   padding: 30px;
+  align-items: center;
+}
+
+.contact-container {
+  height: 15vh;
+  background-color: #212529;
 }
